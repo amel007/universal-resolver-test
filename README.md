@@ -19,7 +19,9 @@ You can deploy the Universal Resolver on your local machine by cloning this Gith
 
 You should then be able to resolve identifiers locally using simple `curl` requests as follows:
 
-    curl -X GET http://localhost:8080/1.0/identifiers/did:everscale:5214b9f26c13a9258245d86995f5b93c34eb9a2c982420cda871919f454ca194
+    curl -X GET http://localhost:8080/1.0/identifiers/did:everscale:cf8e1b844284ea4ea813e4072d7060ebb4f781a75738b37cc7d7507acdb7fe66
+    curl -X GET http://localhost:8080/1.0/identifiers/did:everscale:mainnet:cf8e1b844284ea4ea813e4072d7060ebb4f781a75738b37cc7d7507acdb7fe66
+    curl -X GET http://localhost:8080/1.0/identifiers/did:everscale:testnet:5214b9f26c13a9258245d86995f5b93c34eb9a2c982420cda871919f454ca194
 
 [comment]: <> (	curl -X GET http://localhost:8080/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw)
 
