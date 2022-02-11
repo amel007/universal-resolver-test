@@ -195,6 +195,6 @@ services:
 #    ports:
 #      - "8127:8080"
   driver-did-everscale:
-    image: amelinio007/everscale-did-resolver-test:latest
+    image: radianceteamssi/everscale-did-resolver-driver:latest
     ports:
       - "8128:8080"

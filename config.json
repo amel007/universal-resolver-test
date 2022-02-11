@@ -229,7 +229,11 @@
 			"pattern": "^(did:everscale:.+)$",
 			"url": "http://driver-did-everscale:8080/",
 			"propertiesEndpoint": "true",
-			"testIdentifiers": [ "did:everscale:5214b9f26c13a9258245d86995f5b93c34eb9a2c982420cda871919f454ca194" ]
+			"testIdentifiers": [
+				"did:everscale:cf8e1b844284ea4ea813e4072d7060ebb4f781a75738b37cc7d7507acdb7fe66",
+				"did:everscale:mainnet:cf8e1b844284ea4ea813e4072d7060ebb4f781a75738b37cc7d7507acdb7fe66",
+				"did:everscale:testnet:5214b9f26c13a9258245d86995f5b93c34eb9a2c982420cda871919f454ca194"
+			]
 		}
 	]
 }
